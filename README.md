@@ -1,4 +1,4 @@
-# Pokedeck antes primero se llamaba MercadilloLibre pero:
+# Pokedeck primero se llamaba MercadilloLibre pero:
 ## Como ya hicimos un Proyecto con MELI, me aventuré a usar la PokeAPI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
