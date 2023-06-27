@@ -1,0 +1,11 @@
+<div class="universo">
+  <h1>Pokemones:</h1>
+  <div class="flex-container">
+    <div *ngFor="let item of miImagen" class="caja">
+      <img src={{item.imagen}} alt="imagen de pokemon">
+      <hr>
+      <h3>Nombre: {{item.nombre}}</h3>
+      <button routerLink="detalle/{{item.id}}">Ver más</button>
+    </div><br>
+  </div>
+</div>

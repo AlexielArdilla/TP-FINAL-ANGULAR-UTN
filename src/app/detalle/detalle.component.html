@@ -1,0 +1,13 @@
+<h1>Detalles del Pokemon:</h1>
+<div class="flex-container">
+  <div class="caja">
+    <div *ngFor="let item of miImagen" class="caja">
+      <img src={{item.imagen}} alt="imagen de pokemon">
+      <h3>Nombre: {{item.nombre}}</h3>
+      <h4>Peso: {{item.peso}} Kg</h4>
+      <h4>Altura: {{item.altura}} Feet</h4>
+      <h4>Experiencia: {{item.experiencia}}</h4>
+      <button routerLink="/">{{item.nombre}}</button>
+    </div>
+  </div>
+</div>

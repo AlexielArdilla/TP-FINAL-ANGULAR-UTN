@@ -1,0 +1,59 @@
+.title {
+  background-image: url("../../img/banner_pokemon.jpg");
+}
+
+
+ul {
+  list-style: none;
+  text-align: center;
+  background-color: yellow;
+  padding: 20px;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: x-large;
+  padding-left: 25px;
+  padding-right: 25px;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+
+}
+
+li:hover {
+  color: green;
+  text-align: center;
+  animation: shake 0.3s ease-in-out;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 0%;
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    background-image: url(../../img/pokedeck_banner_responsive.jpg);
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  10% { transform: translateX(-10px) rotate(-5deg); }
+  20% { transform: translateX(10px) rotate(5deg); }
+  30% { transform: translateX(-10px) rotate(-5deg); }
+  40% { transform: translateX(10px) rotate(5deg); }
+  50% { transform: translateX(-10px) rotate(-5deg); }
+  60% { transform: translateX(10px) rotate(5deg); }
+  70% { transform: translateX(-10px) rotate(-5deg); }
+  80% { transform: translateX(10px) rotate(5deg); }
+  90% { transform: translateX(-10px) rotate(-5deg); }
+  100% { transform: translateX(0) rotate(0); }
+}

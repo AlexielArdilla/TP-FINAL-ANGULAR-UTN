@@ -1,0 +1,163 @@
+.title {
+  background-image: url("../../img/banner_pokemon.jpg");
+}
+
+.universo {
+  background-image: url("../../img/pokemon-desktop.jpg");
+}
+
+
+ul {
+  list-style: none;
+  text-align: center;
+  background-color: yellow;
+  padding: 20px;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: x-large;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+a:hover {
+  color: green;
+}
+
+footer p {
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  padding: 25px;
+  margin-bottom: 0;
+}
+
+.imagenes {
+  width: 100px;
+  padding: 15px;
+}
+
+.caja {
+  border: 2px solid black;
+  border-radius: 45px;
+  display: inline-block;
+  padding: 35px;
+  margin: 20px;
+  text-align: center;
+  width: 150px;
+  background-color: white;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  10% {
+    transform: translateX(-10px) rotate(-5deg);
+  }
+
+  20% {
+    transform: translateX(10px) rotate(5deg);
+  }
+
+  30% {
+    transform: translateX(-10px) rotate(-5deg);
+  }
+
+  40% {
+    transform: translateX(10px) rotate(5deg);
+  }
+
+  50% {
+    transform: translateX(-10px) rotate(-5deg);
+  }
+
+  60% {
+    transform: translateX(10px) rotate(5deg);
+  }
+
+  70% {
+    transform: translateX(-10px) rotate(-5deg);
+  }
+
+  80% {
+    transform: translateX(10px) rotate(5deg);
+  }
+
+  90% {
+    transform: translateX(-10px) rotate(-5deg);
+  }
+
+  100% {
+    transform: translateX(0) rotate(0);
+  }
+}
+
+
+.caja:hover {
+
+  animation: shake 0.5s ease-in-out;
+
+}
+
+img {
+  width: 150px;
+}
+
+.flex-container {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 0%;
+  margin-top: 0;
+}
+
+ul {
+  text-align: center;
+  background-color: yellow;
+  color: black;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+.super-container {
+  background-color: rgb(247, 247, 248);
+}
+
+button {
+
+  background-color: rgb(77, 77, 226);
+  color: aliceblue;
+  padding: 5px;
+  font-size: larger;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: blue;
+  color: aliceblue;
+  padding: 5px;
+  font-size: larger;
+  border-radius: 15px;
+}
+

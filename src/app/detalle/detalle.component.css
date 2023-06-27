@@ -1,0 +1,71 @@
+
+.caja{
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    width: 400px;
+    background-color: white;
+}
+
+
+img{
+    width: 350px;
+}
+
+@media (max-width: 768px) {
+  .caja {
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+    background-color: white;
+  }
+
+  img{
+    width: 200px;
+  }
+
+}
+
+.flex-container{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+ul{
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
+
+button{
+
+    background-color: rgb(55, 13, 224);
+    color: aliceblue;
+    padding: 5px;
+    font-size: larger;
+    border-radius: 15px;
+}
+
+p{
+    font-weight: bold;
+}
